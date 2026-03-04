@@ -1,0 +1,16 @@
+[package]
+version = "1.0.0"
+title = "A2A Client Extension"
+description = "A2A Protocol Client for NVIDIA Omniverse Kit"
+authors = ["OpenCode Team"]
+repository = ""
+keywords = ["a2a", "opencode", "usd", "ai"]
+changelog = "docs/CHANGELOG.md"
+readme = "docs/README.md"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "omni.kit.a2a_client"
